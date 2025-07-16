@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+.navbar {
+    background-color: #0077cc;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.content {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.content img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-section {
+    text-align: center;
+    background-color: #e6f2ff;
+    padding: 30px 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-section input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.form-section button {
+    padding: 10px 15px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #005fa3;
+}
